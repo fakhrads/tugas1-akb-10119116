@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent Profile = new Intent(MainActivity.this, ProfileActivity.class);
         startActivity(Profile);
-        finish();
     }
 
     public void toLogin(View view) {
